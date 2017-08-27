@@ -1,0 +1,11 @@
+# Faster Google Chrome
+alias google-chrome='/usr/bin/google-chrome --disable-gpl-sandbox'
+
+# For ranger app - file explorer using vim
+alias ranger='ranger --choosedir=$HOME/rangerdir; LASTDIR=`cat $HOME/rangerdir`; cd "$LASTDIR"'
+
+# Quick List of files with human readable details
+alias ll='ls -lh'
+
+source .work_folder
+source .work_ssh
