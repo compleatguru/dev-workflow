@@ -7,5 +7,11 @@ alias ranger='ranger --choosedir=$HOME/rangerdir; LASTDIR=`cat $HOME/rangerdir`;
 # Quick List of files with human readable details
 alias ll='ls -lh'
 
-source .work_folder
-source .work_ssh
+# Adopt from https://stackoverflow.com/questions/242538/unix-shell-script-find-out-which-directory-the-script-file-resides
+# Absolute path to this script
+SCRIPT=$(readlink -f "$0")
+# Absolute path this script is in
+SCRIPTPATH=$(dirname "$SCRIPT")
+
+source $SCRIPTPATH/.work_folder
+source $SCRIPTPATH/.work_ssh
