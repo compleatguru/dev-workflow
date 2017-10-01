@@ -53,6 +53,9 @@ cd the_silver_searcher
 ./build.sh
 sudo make install
 
+#Setup VIM
+sudo apt install stow
+stow $HOME/dev-workflow/.vim
 
-# setup SPF13
+# setup SPF13_VimPlug
 curl http://bit.ly/spf13_vimplug -L -o -|sh
