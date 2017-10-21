@@ -1,1 +1,1 @@
-# setxkbmap -layout us -option ctrl:swapcaps
+setxkbmap -layout us -option ctrl:swapcaps
