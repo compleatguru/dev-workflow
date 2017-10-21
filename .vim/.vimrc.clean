@@ -1,0 +1,4 @@
+set nocompatible nowrap nolangremap noloadplugins
+set noswapfile
+set viminfofile=NONE
+set lazyredraw
