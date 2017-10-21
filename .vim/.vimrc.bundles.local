@@ -1,6 +1,7 @@
 Plug 'pearofducks/ansible-vim'
 Plug 'leafgarland/typescript-vim'
 Plug 'w0rp/ALE'
+Plug 'greyblake/vim-preview'
 UnPlug 'syntastic'
 UnPlug 'vim-less'
 UnPlug 'vim-cucumber'

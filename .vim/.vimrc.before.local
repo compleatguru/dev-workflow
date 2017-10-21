@@ -2,5 +2,5 @@
 
 " bundles {
 "    Master let g:spf13_bundle_groups=['general', 'writing', 'neocomplete', 'programming', 'php', 'ruby', 'python', 'javascript', 'html', 'misc',]
-    let g:spf13_bundle_groups=['general', 'writing', 'neocomplete', 'programming', 'php', 'javascript', 'html',]
+    let g:spf13_bundle_groups=['general', 'writing', 'neocomplete', 'programming', 'php', 'javascript', 'html', 'rust']
 " }
