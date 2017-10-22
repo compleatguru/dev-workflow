@@ -16,4 +16,11 @@ function! Convert2GeoJSON()
     call setline('.', json_encode(point))
 endfunction
 
+function! ExtractCoordinates ()
+    let line = getline(".")
+    let json = json_decode(line)
+
+    call setline('.', '[' . string(json['lon']) . ',' . string(json['lat']) .']')
+endfunction
+
 " vim: set sw=4 ts=4 sts=4 et tw=78 foldmarker={,} foldlevel=0 foldmethod=marker spell:
