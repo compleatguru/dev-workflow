@@ -1,0 +1,6 @@
+<div class="form-group row" [ngClass]="{'has-error': (!$input.name.valid && $input.name.touched), 'has-success': ($input.name.valid && $input.name.touched)}">
+    <div class="col-md-12">
+        <input placeholder=" " [formControl]="$input.name" type="$input.name" class="form-control form-control-sm" id="$input.name" title="$input.title: {{$input.name.value}}">
+        <label for="$input.name" placeholder="$input.title" alt="$input.title"></label>
+    </div>
+</div>

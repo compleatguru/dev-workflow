@@ -1,0 +1,135 @@
+" PHP CS Fixer {
+let g:php_cs_fixer_level = 'symfony'
+let g:php_cs_fixer_config = 'default'
+let g:php_cs_fixer_php_path = 'php'
+let g:php_cs_fixer_enable_default_mapping = 1
+let g:php_cs_fixer_dry_run = 0
+let g:php_cs_fixer_verbose = 0
+" }
+
+" Shell {
+set shell=/bin/zsh
+" }
+
+" Typescript {
+    " Indent disable {
+    let g:typescript_indent_disable = 0
+    " }
+" }
+
+" EditorConfig {
+let g:EditorConfig_exclude_patterns = ['fugitive://.*', 'scp://.*']
+" }
+
+" PHP CTags {
+let g:tagbar_phpctags_bin='/usr/local/bin/phpctags'
+let g:tagbar_phpctags_memory_limit = '512M'
+" }
+
+" Tagbar {
+" use Universal CTags {
+let g:tagbar_ctags_bin = 'ctags'
+" }
+
+" Typescript {
+let g:tagbar_type_typescript = {
+            \ 'ctagstype': 'typescript',
+            \ 'kinds': [
+            \ 'c:classes',
+            \ 'n:modules',
+            \ 'f:functions',
+            \ 'v:variables',
+            \ 'v:varlambdas',
+            \ 'm:members',
+            \ 'i:interfaces',
+            \ 'e:enums'
+            \ ]
+            \ }
+" }
+
+" Typescript Complier {
+let g:typescript_compiler_binary = 'tsc'
+let g:typescript_compiler_options = ''
+" }
+
+" CSS {
+let g:tagbar_type_css = {
+            \ 'ctagstype' : 'css',
+            \ 'kinds'     : [
+            \ 'c:classes',
+            \ 's:selectors',
+            \ 'i:identities'
+            \ ]
+            \ }
+" }
+
+" SCSS {
+let g:tagbar_type_scss = {
+            \ 'ctagstype' : 'scss',
+            \ 'kinds'     : [
+            \ 'c:classes',
+            \ 's:selectors',
+            \ 'i:identities',
+            \ 'm:mixins',
+            \ 'e:media'
+            \ ]
+            \ }
+" }
+" }
+
+" Syntastic {
+"let g:syntastic_sass_checkers=["sass_lint"]
+"let g:syntastic_javascript_checkers = ['jscs']
+"let g:syntastic_aggregate_errors = 1
+" For DEBUG
+" let g:syntastic_debug = 1
+" }
+
+" fixmyjs_engine {
+" let g:fixmyjs_engine = 'jscs'
+" }
+
+" Ack plugin  {
+    " Use Silver searcher {
+    if executable('ag')
+        let g:ackprg = 'ag --vimgrep'
+    endif
+    " }
+" }
+
+
+" File Operations {
+" Javascript {
+" autocmd bufwritepost *.js silent !standard-format -w %
+
+" Run standard-format javascript asynchronously and reopen the file
+" autocmd bufwritepost *.js silent AsyncRun! -post=e! standard-format -w %
+" }
+" }
+
+" EasyTags {
+let g:easytags_async=1
+"}
+
+
+" Set FileType {
+au BufNewFile,BufRead *.ts setlocal tabstop=2 shiftwidth=2 expandtab|retab!
+au BufNewFile,BufRead *.scss setlocal filetype=css
+au VimEnter * if globpath('.,..','node_modules/@angular') != '' | call angular_cli#init() | endif
+" }
+
+" ALE {
+" https://github.com/w0rp/ale
+"let g:ale_set_loclist                = 0
+"let g:ale_set_quickfix               = 1
+let g:airline#extensions#ale#enabled = 1
+let g:ale_completion_enabled         = 1
+" }
+
+
+" My VimScripts {
+" source /media/david/projects/test/oms/vimscripts/**/*.vim
+" }
+
+
+" vim: set sw=4 ts=4 sts=4 et tw=78 foldmarker={,} foldlevel=0 foldmethod=marker spell:
