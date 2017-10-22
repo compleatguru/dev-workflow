@@ -13,7 +13,7 @@ function! Convert2GeoJSON()
     "let geoJSON = {'type':'FeatureCollections'}
     "let geoJSON = {}
     "let geoJSON['features']=[point]
-    normal! Vp =json_encode(point)
+    call setline('.', json_encode(point))
 endfunction
 
 " vim: set sw=4 ts=4 sts=4 et tw=78 foldmarker={,} foldlevel=0 foldmethod=marker spell:
