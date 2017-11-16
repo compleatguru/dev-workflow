@@ -15,3 +15,6 @@ SCRIPTPATH=$(dirname "$SCRIPT")
 
 source $SCRIPTPATH/.work_folder
 source $SCRIPTPATH/.work_ssh
+
+# Archimate
+alias archi=/media/david/projects/downloads/EA/Archi/Archi

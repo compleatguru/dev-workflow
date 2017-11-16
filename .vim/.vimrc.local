@@ -91,10 +91,28 @@ let g:tagbar_type_scss = {
 
 " Ack plugin  {
     " Use Silver searcher {
-    if executable('ag')
-        let g:ackprg = 'ag --vimgrep'
+"    if executable('ag')
+"        let g:ackprg = 'ag --vimgrep'
+"    endif
+    " }
+    
+    " Use RipGrep searcher {
+    if executable('rg')
+        let g:ackprg = 'rg --vimgrep --no-heading'
     endif
     " }
+" }
+" Control-P {
+
+    " Use RipGrep searcher {
+    if executable('rg')
+        let g:ctrlp_user_command      = 'rg --files %s'
+        let g:ctrlp_use_caching       = 0
+        let g:ctrlp_working_path_mode = 'ra'
+        let g:ctrlp_switch_butter     = 'et'
+    endif
+    " }
+
 " }
 
 
@@ -123,9 +141,15 @@ au VimEnter * if globpath('.,..','node_modules/@angular') != '' | call angular_c
 "let g:ale_set_loclist                = 0
 "let g:ale_set_quickfix               = 1
 let g:airline#extensions#ale#enabled = 1
-let g:ale_completion_enabled         = 1
+let g:ale_completion_enabled         = 0
 " }
 
+" My preferences {
+" For performance: screen not redrawn while executing macros, registers and
+" other commands that have not been typed
+" :redraw to force an update
+set lazyredraw
+" }
 
 " My VimScripts {
 " source /media/david/projects/test/oms/vimscripts/**/*.vim

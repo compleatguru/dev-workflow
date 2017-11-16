@@ -1,6 +1,12 @@
-Plug 'leafgarland/typescript-vim'
+" Replace syntastic
 Plug 'w0rp/ALE'
+
+" Word Processing
 Plug 'greyblake/vim-preview'
+Plug 'dhruvasagar/vim-table-mode'
+
+" For Angular Development
+Plug 'leafgarland/typescript-vim'
 Plug 'bdauria/angular-cli.vim'
 Plug 'compleatguru/vim-table-mode'
 " TaskWiki for Project Management
@@ -8,7 +14,8 @@ Plug 'vimwiki/vimwiki'
 Plug 'tbabej/taskwiki'
 Plug 'powerman/vim-plugin-AnsiEsc'
 Plug 'farseer90718/vim-taskwarrior'
-"Plug 'dhruvasagar/vim-table-mode'
+
+" Not in use
 UnPlug 'syntastic'
 UnPlug 'vim-less'
 UnPlug 'vim-cucumber'
