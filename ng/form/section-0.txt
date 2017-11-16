@@ -1,0 +1,17 @@
+{"name":"name", "label": "", "type": "text"}
+{"name":"type_name", "label": "", "type": "text"}
+{"name":"imo", "label": "", "type": "text"}
+{"name":"mt_call_sign", "label": "", "type": "text"}
+{"name":"mmsi", "label": "", "type": "text"}
+{"name":"mt_flag", "label": "", "type": "text"}
+{"name":"port", "label": "", "type": "text"}
+{"name":"ship_class", "label": "", "type": "text"}
+{"name":"mt_gross_tonnage", "label": "", "type": "text"}
+{"name":"mt_dwt", "label": "", "type": "text"}
+{"name":"mt_loa", "label": "", "type": "text"}
+{"name":"depth", "label": "", "type": "text"}
+{"name":"segregations", "label": "", "type": "text"}
+{"name":"tank_coating", "label": "", "type": "text"}
+{"name":"ship_management", "label": "", "type": "text"}
+{"name":"mt_status", "label": "", "type": "text"}
+{"name":"mt_year_built", "label": "", "type": "text"}

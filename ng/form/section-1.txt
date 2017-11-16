@@ -1,0 +1,277 @@
+1.    VESSEL DESCRIPTION
+{"name":"date_updated", "label":"1.1    Date updated:", "type":"text"}
+{"name":"name", "label":"1.2    Vessel’s name:", "type":"text"}
+{"name":"imo", "label":"1.2    Vessel’s IMO number:", "type":"text"}
+{"name":"previous_name", "label":"1.3    Vessel’s previous name:", "type":"text"}
+{"name":"date_change", "label":"1.3    Vessel’s previous date of change:", "type":"text"}
+{"name":"mt_year_built", "label":"1.4    Date delivered:", "type":"text"}
+{"name":"builder", "label":"1.4    Builder:", "type":"text"}
+{"name":"builder_location", "label":"1.4    Builder Location:", "type":"text"}
+{"name":"mt_flag", "label":"1.5    Flag:", "type":"text"}
+{"name":"port", "label":"1.5    Port of Registry:", "type":"text"}
+{"name":"mt_call_sign", "label":"1.6 Call sign:", "type":"text"}
+{"name":"mmsi", "label":"1.6 MMSI:", "type":"text"}
+{"name":"contact_details", "label":"1.7    Vessel’s contact details (satcom/fax/email etc.):", "type":"text"}
+{"name":"type_name", "label":"1.8    Type of vessel (as described in Form A or Form B Q1.11 of the IOPPC):", "type":"text"}
+{"name":"hull_type", "label":"1.9    Type of hull:", "type":"text"}
+Classification
+{"name":"classification_society", "label":"1.10   Classification society:", "type":"text"}
+{"name":"class_notation", "label":"1.11   Class notation:", "type":"text"}
+{"name":"classification_condition", "label":"1.12   Is the vessel subject to any conditions of class, class extensions, outstanding memorandums or class recommendations? If yes, give details:", "type":"text"}
+{"name":"classification_change", "label":"1.13   If classification society changed, name of previous and date of change:", "type":"text"}
+{"name":"imo_type", "label":"1.14   IMO type, if applicable:", "type":"text"}
+{"name":"has_ice_class", "label":"1.15   Does the vessel have ice class?", "type":"checkbox"}
+{"name":"ice_class_level", "label":"1.15   Does the vessel have ice class? If yes, state what level:", "type":"text"}
+{"name":"dry_dock_last_date", "label":"1.16   Date of last dry‐dock:", "type":"text"}
+{"name":"dry_dock_last_location", "label":"1.16   Place of last dry‐dock:", "type":"text"}
+{"name":"dry_dock_next_date", "label":"1.17   Date next dry dock due", "type":"text"}
+{"name":"dry_dock_next_annual_date", "label":"1.17   Date next annual survey due:", "type":"text"}
+{"name":"special_survey_last_date", "label":"1.18   Date of last special survey:", "type":"text"}
+{"name":"special_survey_next_date", "label":"1.18   Date of next special survey due:", "type":"text"}
+{"name":"has_cap", "label":"1.19   If ship has Condition Assessment Program (CAP):", "type":"checkbox"}
+{"name":"cap", "label":"1.19   What is the latest overall rating:", "type":"text"}
+{"name":"has_cas", "label":"1.20   Does the vessel have a statement of compliance issued under the provisions of the Condition Assessment Scheme (CAS): If yes, what is the expiry date?", "type":"text"}
+{"name":"cas_expiry_date", "label":"1.20 If yes, what is the expiry date?", "type":"text"}
+Dimension
+{"name":"mt_loa", "label":"1.21   Length overall (LOA):", "type":"text"}
+{"name":"lbp", "label":"1.22   Length between perpendiculars (LBP):", "type":"text"}
+{"name":"beam", "label":"1.23   Extreme breadth (Beam):", "type":"text"}
+{"name":"moulded_depth", "label":"1.24   Moulded depth:", "type":"text"}
+{"name":"ktm", "label":"1.25   Keel to masthead (KTM):", "type":"text"}
+{"name":"ktm_collapsed", "label":"1.25 Keel to masthead (KTM) in collapsed condition, if applicable:", "type":"text"}
+{"name":"bcm", "label":"1.26   Bow to center manifold (BCM):", "type":"text"}
+{"name":"scm", "label":"1.26   Stern to center manifold (SCM):", "type":"text"}
+{"name":"bridge_front", "label":"1.27   Distance bridge front to center of manifold:", "type":"text"}
+1.28   Parallel body distances
+{"name":"forward_mid_point_lightship", "label":"Forward to mid‐point manifold (Light Ship):", "type":"text"}
+{"name":"forward_mid_point_normal", "label":"Forward to mid‐point manifold (Normal Ballast):", "type":"text"}
+{"name":"forward_mid_point_summer", "label":"Forward to mid‐point manifold (Summer DWT):", "type":"text"}
+{"name":"aft_mid_point_lightship", "label":"Aft to mid‐point manifold (Light Ship):", "type":"text"}
+{"name":"aft_mid_point_normal", "label":"Aft to mid‐point manifold (Normal Ballast):", "type":"text"}
+{"name":"aft_mid_point_summer", "label":"Aft to mid‐point manifold (Summer DWT):", "type":"text"}
+{"name":"parallel_body_length_lightship", "label":"Parallel body length (Light Ship):", "type":"text"}
+{"name":"parallel_body_length_normal", "label":"Parallel body length (Normal Ballast):", "type":"text"}
+{"name":"parallel_body_length_summer", "label":"Parallel body length (Summer DWT):", "type":"text"}
+{"name":"fwa", "label":"1.29   FWA at summer draft:", "type":"text"}
+{"name":"tpc", "label":"1.29   TPC at summer draft:", "type":"text"}
+{"name":"constant_exclude_fresh_water", "label":"1.30   Constant (excluding fresh water)", "type":"text"}
+{"name":"ukc", "label":"1.31   What is the company guidelines for Under Keel Clearance (UKC) for this vessel?", "type":"text"}
+1.32   What is the max height of mast above waterline (air draft)
+{"name":"air_draft_lightship", "label":"Air Draft - Lightship:", "type":"text"}
+{"name":"air_draft_normal", "label":"Air Draft - Normal ballast:", "type":"text"}
+{"name":"air_draft_summer", "label":"Air Draft - At loaded summer deadweight:", "type":"text"}
+Tonnages
+{"name":"net_tonnage", "label":"1.33   Net Tonnage:", "type":"text"}
+{"name":"mt_gross_tonnage", "label":"1.34   Gross Tonnage:", "type":"text"}
+{"name":"gross_tonnage_reduced", "label":"1.34   Reduced Gross Tonnage (if applicable):", "type":"text"}
+{"name":"scgt", "label":"1.35   Suez Canal Tonnage ‐ Gross (SCGT) / Net (SCNT):", "type":"text"}
+{"name":"scnt", "label":"1.35   Suez Canal Tonnage ‐ Net (SCNT):", "type":"text"}
+{"name":"pcnt", "label":"1.36   Panama Canal Net Tonnage (PCNT):", "type":"text"}
+Ownership and Operation
+{"name":"registered_owner", "label":"1.37   Registered owner ‐ Full style:", "type":"text"}
+{"name":"techical_operator", "label":"1.38   Technical operator ‐ Full style:", "type":"text"}
+{"name":"commercial_operator", "label":"1.39   Commercial operator ‐ Full style:", "type":"text"}
+{"name":"disponent_owner", "label":"1.40   Disponent owner ‐ Full style:", "type":"text"}
+2.     CERTIFICATION
+{"name":"", "label":"2.1    Safety Equipment Certificate (SEC):", "type":"text"}
+{"name":"", "label":"2.2    Safety Radio Certificate (SRC):", "type":"text"}
+{"name":"", "label":"2.3    Safety Construction Certificate (SCC):", "type":"text"}
+{"name":"", "label":"2.4    International Loadline Certificate (ILC):", "type":"text"}
+{"name":"", "label":"2.5    International Oil Pollution Prevention Certificate (IOPPC):", "type":"text"}
+{"name":"", "label":"2.6    ISM Safety Management Certificate (SMC):", "type":"text"}
+{"name":"", "label":"2.7    Document of Compliance (DOC):", "type":"text"}
+{"name":"", "label":"2.8    USCG Certificate of Compliance (COC):", "type":"text"}
+{"name":"", "label":"2.9    Civil Liability Convention (CLC) 1992 Certificate:", "type":"text"}
+{"name":"", "label":"2.10   Civil Liability for Bunker Oil Pollution Damage Convention (CLBC) Certificate", "type":"text"}
+{"name":"", "label":"2.11   Ship Sanitation Control (SSCC)/Ship Sanitation Control Exemption (SSCE) Certificate", "type":"text"}
+{"name":"", "label":"2.12   U.S. Certificate of Financial Responsibility (COFR):", "type":"text"}
+{"name":"", "label":"2.13   Certificate of Class (COC):", "type":"text"}
+{"name":"", "label":"2.14   International Sewage Pollution Prevention Certificate (ISPPC):", "type":"text"}
+{"name":"", "label":"2.15   Certificate of Fitness (COF):", "type":"text"}
+{"name":"", "label":"2.16   International Energy Efficiency Certificate (IEEC):", "type":"text"}
+{"name":"", "label":"2.17   International Ship Security Certificate (ISSC):", "type":"text"}
+{"name":"", "label":"2.18   International Air Pollution Prevention Certificate (IAPPC):", "type":"text"}
+{"name":"", "label":"2.19   Maritime Labour Certificate (MLC):", "type":"text"}
+Documentation
+{"name":"", "label":"2.20   Owner warrant that vessel is member of ITOPF and will remain so for the entire duration of this voyage/contract", "type":"text"}
+{"name":"", "label":"2.21   Does vessel have in place a Drug and Alcohol Policy complying with OCIMF guidelines for Control of Drugs and Alcohol Onboard Ship", "type":"text"}
+{"name":"", "label":"2.22   Is the ITF Special Agreement on board (if applicable)?", "type":"text"}
+{"name":"", "label":"2.23   ITF Blue Card expiry date:", "type":"text"}
+3.     CREW
+{"name":"", "label":"3.1    Nationality of Master:", "type":"text"}
+{"name":"", "label":"3.2    Number and Nationality of Officers:", "type":"text"}
+{"name":"", "label":"3.3    Number and Nationality of Crew:", "type":"text"}
+{"name":"", "label":"3.4    What is the common working language onboard:", "type":"text"}
+{"name":"", "label":"3.5    Do officers speak and understand English?", "type":"text"}
+{"name":"", "label":"3.6    If Officers/Crew employed by a Manning Agency ‐ Full style:", "type":"text"}
+4.     FOR USA CALL
+{"name":"", "label":"4.1    Has the vessel Operator submitted a Vessel Spill Response Plan to the US Coast Guard which has been approved by official USCG letter", "type":"text"}
+{"name":"", "label":"4.2    Qualified individual (QI) ‐ Full style:", "type":"text"}
+{"name":"", "label":"4.3    Oil Spill Response Organization (OSRO) ‐ Full style:", "type":"text"}
+5.     CARGO AND BALLAST HANDLING
+Double Hull Vessels
+{"name":"", "label":"5.1    Is vessel fitted with centerline bulkhead in all cargo tanks? If Yes, solid or perforated:", "type":"text"}
+Loadline Information
+{"name":"", "label":"5.2    Loadline, "type":"text"}
+{"name":"", "label":"Summer:", "type":"text"}
+{"name":"", "label":"Winter:", "type":"text"}
+{"name":"", "label":"Tropical: "type":"text"}
+{"name":"", "label":"Lightship:"type":"text"}
+{"name":"", "label":"Normal Ballast Condition:", "type":"text"}
+{"name":"", "label":"5.3    Does vessel have multiple SDWT? If yes, please provide all assigned loadlines:", "type":"text"}
+Cargo Tank Capacities
+{"name":"", "label":"5.4    Number of cargo tanks and total cubic capacity (98%):", "type":"text"}
+{"name":"", "label":"5.5    Capacity (98%) of each natural segregation with double valve (specify tanks):", "type":"text"}
+{"name":"", "label":"5.6    Number of slop tanks and total cubic capacity (98%):", "type":"text"}
+{"name":"", "label":"5.7    Specify segregations which slops tanks belong to and their capacity with double valve", "type":"text"}
+{"name":"", "label":"5.8    Residual/Retention oil tank(s) capacity (98%), if applicable:", "type":"text"}
+{"name":"", "label":"5.9    Does vessel have Segregated Ballast Tanks (SBT) or Clean Ballast Tanks (CBT):", "type":"text"}
+SBT Vessels
+{"name":"", "label":"5.10   What is total SBT capacity and percentage of SDWT vessel can maintain?", "type":"text"}
+{"name":"", "label":"5.11   Does vessel meet the requirements of MARPOL Annex I Reg 18.2:", "type":"text"}
+{"name":"", "label":"Cargo Handling and Pumping System", "type":"text"}
+{"name":"", "label":"5.12   How many grades/products can vessel load/discharge with double valve segregation:", "type":"text"}
+{"name":"", "label":"5.13   Are there any cargo tank filling restrictions?", "type":"text"}
+{"name":"", "label":"If yes, specify number of slack tanks, max s.g., ullage restrictions etc.", "type":"text"}
+{"name":"", "label":"5.14   Pumps", "type":"text"}
+{"name":"", "label":"Cargo Pumps:", "type":"text"}
+{"name":"", "label":"Cargo Eductors:", "type":"text"}
+{"name":"", "label":"Stripping:", "type":"text"}
+{"name":"", "label":"Ballast Pumps:", "type":"text"}
+{"name":"", "label":"Ballast Eductors:", "type":"text"}
+{"name":"", "label":"5.15   Max loading rate for homogenous cargo per manifold connection:", "type":"text"}
+{"name":"", "label":"5.16   Max loading rate for homogenous cargo loaded simultaneously through all manifolds:", "type":"text"}
+{"name":"", "label":"5.17   How many cargo pumps can be run simultaneously at full capacity:", "type":"text"}
+Cargo Control Room
+{"name":"", "label":"5.18   Is ship fitted with a Cargo Control Room (CCR)?", "type":"text"}
+{"name":"", "label":"5.19   Can tank innage / ullage be read from the CCR?", "type":"text"}
+Gauging and Sampling
+{"name":"", "label":"5.20   Can cargo be transferred under closed loading conditions in accordance with ISGOTT 11.1.6.6", "type":"text"}
+{"name":"", "label":"5.21   What type of fixed closed tank gauging system is fitted:", "type":"text"}
+{"name":"", "label":"5.22   Number of portable gauging units (example‐ MMC) on board:", "type":"text"}
+{"name":"", "label":"5.23   Are overfill (high) alarms fitted? If Yes, indicate whether to all tanks or partial:", "type":"text"}
+{"name":"", "label":"5.24   Are cargo tanks fitted with multipoint gauging? If yes, specify type and locations:", "type":"text"}
+{"name":"", "label":"5.25   Is gauging system certified and calibrated? If no, specify which ones are not calibra", "type":"text"}
+Vapor Emission Control System (VECS)
+{"name":"", "label":"5.26   Is a Vapour Emission Control System (VECS) fitted?", "type":"text"}
+{"name":"", "label":"5.27   Number/size of VECS manifolds (per side):", "type":"text"}
+{"name":"", "label":"5.28   Number / size / type of VECS reducers", "type":"text"}
+Venting
+{"name":"", "label":"5.29   State what type of venting system is fitted:", "type":"text"}
+Cargo Manifolds and Reducer
+{"name":"", "label":"5.30   Does vessel comply with the latest edition of the OCIMF 'Recommendations for Oil Tanker Manifolds and Associated Equipment'", "type":"text"}
+{"name":"", "label":"5.31   Total number / size of cargo manifold connections on each side:", "type":"text"}
+{"name":"", "label":"5.32   What type of valves are fitted at manifold:", "type":"text"}
+{"name":"", "label":"5.33   What is the material/rating of the manifold:", "type":"text"}
+{"name":"", "label":"5.34   Does the vessel have a Common Line Manifold connection? If yes, describe", "type":"text"}
+{"name":"", "label":"5.35   Distance between cargo manifold centers:", "type":"text"}
+{"name":"", "label":"5.36   Distance ships rail to manifold:", "type":"text"}
+{"name":"", "label":"5.37   Distance manifold to ships side:", "type":"text"}
+{"name":"", "label":"5.38   Top of rail to center of manifold:", "type":"text"}
+{"name":"", "label":"5.39   Distance main deck to center of manifold:", "type":"text"}
+{"name":"", "label":"5.40   Spill tank grating to center of manifold:", "type":"text"}
+{"name":"", "label":"5.41   Manifold height above the waterline in normal ballast / at SDWT condition:", "type":"text"}
+{"name":"", "label":"5.42   Number / size / type of reducers:", "type":"text"}
+{"name":"", "label":"5.43   Is vessel fitted with a stern manifold? If yes, state size:", "type":"text"}
+Heating
+{"name":"", "label":"5.44   Cargo / slop tanks fitted with a cargo heating system?", "type":"text"}
+{"name":"", "label":"Cargo Tanks:", "type":"text"}
+{"name":"", "label":"Slop Tanks:", "type":"text"}
+{"name":"", "label":"5.45   Maximum temperature cargo can be loaded / maintained:", "type":"text"}
+{"name":"", "label":"5.46   Minimum temperature cargo can be loaded / maintained:", "type":"text"}
+Coating / Anodes
+{"name":"", "label":"5.47   Tank Coating", "type":"text"}
+{"name":"", "label":"Cargo tanks:", "type":"text"}
+{"name":"", "label":"Ballast tanks:", "type":"text"}
+{"name":"", "label":"Slop tanks:", "type":"text"}
+6.     INERT GAS AND CRUDE OIL WASHING
+{"name":"", "label":"6.1    Is a Crude Oil Washing (COW) installation fitted / operational?", "type":"text"}
+{"name":"", "label":"6.2    Is an Inert Gas System (IGS) fitted / operational?", "type":"text"}
+{"name":"", "label":"6.3    Is IGS supplied by flue gas, inert gas (IG) generator and/or nitrogen:", "type":"text"}
+7.     MOORING
+{"name":"", "label":"7.1    Wires (on drums)", "type":"text"}
+{"name":"", "label":"Forecastle:", "type":"text"}
+{"name":"", "label":"Main deck fwd:", "type":"text"}
+{"name":"", "label":"Main deck aft:", "type":"text"}
+{"name":"", "label":"Poop deck:", "type":"text"}
+{"name":"", "label":"7.2    Wire tails", "type":"text"}
+{"name":"", "label":"Forecastle:", "type":"text"}
+{"name":"", "label":"Main deck fwd:", "type":"text"}
+{"name":"", "label":"Main deck aft:", "type":"text"}
+{"name":"", "label":"Poop deck:", "type":"text"}
+{"name":"", "label":"7.3    Ropes (on drums)", "type":"text"}
+{"name":"", "label":"Forecastle:", "type":"text"}
+{"name":"", "label":"Main deck fwd:", "type":"text"}
+{"name":"", "label":"Main deck aft:", "type":"text"}
+{"name":"", "label":"Poop deck:", "type":"text"}
+{"name":"", "label":"7.4      Other lines", "type":"text"}
+{"name":"", "label":"Forecastle:", "type":"text"}
+{"name":"", "label":"Main deck fwd:", "type":"text"}
+{"name":"", "label":"Main deck aft:", "type":"text"}
+{"name":"", "label":"Poop deck:", "type":"text"}
+{"name":"", "label":"7.5      Winches", "type":"text"}
+{"name":"", "label":"Forecastle:", "type":"text"}
+{"name":"", "label":"Main deck fwd:", "type":"text"}
+{"name":"", "label":"Main deck aft:", "type":"text"}
+{"name":"", "label":"Poop deck:", "type":"text"}
+{"name":"", "label":"7.6      Bitts, closed chocks/fairleads", "type":"text"}
+{"name":"", "label":"Forecastle:", "type":"text"}
+{"name":"", "label":"Main deck fwd:", "type":"text"}
+{"name":"", "label":"Main deck aft:", "type":"text"}
+{"name":"", "label":"Poop deck:", "type":"text"}
+Anchors/Emergency Towing System
+{"name":"", "label":"7.7      Number of shackles on port / starboard cable:", "type":"text"}
+{"name":"", "label":"7.8      Type / SWL of Emergency Towing system forward:", "type":"text"}
+{"name":"", "label":"7.9      Type / SWL of Emergency Towing system aft:", "type":"text"}
+Escort Tug
+{"name":"", "label":"7.10     What is size / SWL of closed chock and/or fairleads of enclosed type on stern:", "type":"text"}
+{"name":"", "label":"7.11     What is SWL of bollard on poop deck suitable for escort tug:", "type":"text"}
+Bow/Stern Thruster
+{"name":"", "label":"7.12     What is brake horse power of bow thruster (if fitted):", "type":"text"}
+{"name":"", "label":"7.13     What is brake horse power of stern thruster (if fitted):", "type":"text"}
+"Single Point Mooring (SPM) Equipment
+{"name":"", "label":"7.14     Does the vessel meet the recommendations in the latest edition of OCIMF 'Recommendations for Equipment Employed in the Bow Mooring of Conventional Tankers at Single Point Moorings (SPM)'", "type":"text"}
+{"name":"", "label":"7.15     If fitted, how many chain stoppers:", "type":"text"}
+{"name":"", "label":"7.16     State type / SWL of chain stopper(s):", "type":"text"}
+{"name":"", "label":"7.17     What is the maximum size chain diameter the bow stopper(s) can handle:", "type":"text"}
+{"name":"", "label":"7.18     Distance between the bow fairlead and chain stopper/bracket:", "type":"text"}
+{"name":"", "label":"7.19     Is bow chock and/or fairlead of enclosed type of OCIMF recommended size (600mm x 450mm)? If not, give details of size:", "type":"text"}
+Lifting Equipment
+{"name":"", "label":"7.20     Derrick / Crane description (Number, SWL and location):", "type":"text"}
+{"name":"", "label":"7.21     What is maximum outreach of cranes / derricks outboard of the ship’s side:", "type":"text"}
+Ship To Ship Transfer (STS) / Helicopter Operation
+{"name":"", "label":"7.22     Does vessel comply with recommendations contained in OCIMF/ICS Ship To Ship Transfer Guide (Petroleum, Chemicals or Liquified Gas, as applicable)", "type":"text"}
+{"name":"", "label":"7.23     Can the ship comply with the ICS Helicopter Guidelines? If Yes, state whether winching or landing area provided and diameter of the circle provided:", "type":"text"}
+"8.       MISCELLANEOUS
+{"name":"", "label":"Engine", "type":"text"}
+{"name":"", "label":"8.1      Speed", "type":"text"}
+{"name":"", "label":"Ballast speed:", "type":"text"}
+{"name":"", "label":"Laden speed:", "type":"text"}
+{"name":"", "label":"8.2      What type of fuel is used for main propulsion / generating plant:", "type":"text"}
+{"name":"", "label":"8.3      Type / Capacity of bunker tanks:", "type":"text"}
+{"name":"", "label":"8.4    Is vessel fitted with fixed or controllable pitch propeller(s):", "type":"text"}
+{"name":"", "label":"8.5    Engines", "type":"text"}
+{"name":"", "label":"Main engine:", "type":"text"}
+{"name":"", "label":"Aux engine:", "type":"text"}
+{"name":"", "label":"Power packs", "type":"text"}
+{"name":"", "label":"Boilers:", "type":"text"}
+{"name":"", "label":"Emission", "type":"text"}
+{"name":"", "label":"8.6    Main engine IMO NOx emission standard:", "type":"text"}
+{"name":"", "label":"8.7    Energy Efficiency Design Index (EEDI) rating number:", "type":"text"}
+{"name":"", "label":"Insurance", "type":"text"}
+{"name":"", "label":"8.8    P & I Club ‐ Full Style:", "type":"text"}
+{"name":"", "label":"8.9    P & I Club pollution liability coverage / expiration date:", "type":"text"}
+{"name":"", "label":"8.10   Hull & Machinery insured by ‐ Full Style:", "type":"text"}
+{"name":"", "label":"8.11   Hull & Machinery insured value / expiration date:", "type":"text"}
+{"name":"", "label":"Recent Operational Histor", "type":"text"}
+{"name":"", "label":"8.12   Date and place of last Port State Control inspection:", "type":"text"}
+{"name":"", "label":"8.13   Any outstanding deficiencies as reported by any Port State Control? If yes, provide details:", "type":"text"}
+{"name":"", "label":"8.14   Has vessel been involved in a pollution, grounding, serious casualty or collision incident during the past 12 months? If yes, full description:", "type":"text"}
+{"name":"", "label":"8.15   Last three cargoes / charterers / voyages (Last / 2nd Last / 3rd Last):", "type":"text"}
+{"name":"", "label":"8.16   Date/place of last STS operation:", "type":"text"}
+{"name":"", "label":"Vetting", "type":"text"}
+{"name":"", "label":"8.17   Date of last SIRE inspection:", "type":"text"}
+{"name":"", "label":"8.18   Date of last CDI inspection:", "type":"text"}
+{"name":"", "label":"8.19   Recent Oil company inspections/screenings (To the best of owners knowledge and without guarantee of acceptance for future business)* * "Approvals" are not given by Oil Majors and ships are accepted for the voyage on case by case basis", "type":"text"}
+{"name":"", "label":"Additional Information", "type":"text"}
+{"name":"", "label":"8.20   Additional information relating to features of the ship or operational characteristics:", "type":"text"}
