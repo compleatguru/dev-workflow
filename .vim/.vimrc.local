@@ -144,6 +144,12 @@ let g:airline#extensions#ale#enabled = 1
 let g:ale_completion_enabled         = 0
 " }
 
+" Task Juggler {
+augroup filetypedetect
+au BufNewFile,BufRead *.tjp,*.tji setf tjp
+augroup END
+" }
+
 " My preferences {
 " For performance: screen not redrawn while executing macros, registers and
 " other commands that have not been typed

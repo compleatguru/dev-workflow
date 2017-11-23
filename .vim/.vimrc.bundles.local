@@ -8,12 +8,15 @@ Plug 'dhruvasagar/vim-table-mode'
 " For Angular Development
 Plug 'leafgarland/typescript-vim'
 Plug 'bdauria/angular-cli.vim'
-Plug 'compleatguru/vim-table-mode'
+Plug 'dhruvasagar/vim-table-mode'
 " TaskWiki for Project Management
 Plug 'vimwiki/vimwiki'
 Plug 'tbabej/taskwiki'
 Plug 'powerman/vim-plugin-AnsiEsc'
 Plug 'farseer90718/vim-taskwarrior'
+
+" Outliner
+Plug 'vimoutliner/vimoutliner'
 
 " Not in use
 UnPlug 'syntastic'
