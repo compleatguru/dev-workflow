@@ -1,3 +1,6 @@
+" Scaffolding for Angular Forms
+" e.g: {"name":"Name","label":"Name","type":"text"}
+
 " NgRenderFormInput {
 " Only this to get this vimscript file path
 let s:path = fnamemodify(resolve(expand('<sfile>:p')), ':h')
